@@ -23,16 +23,15 @@ useEffect(() => {
       <div class="nav__contents">
         <img
           className="nav__logo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/1597px-Netflix_2015_logo.svg.png"
           alt=""
         />
 
-        <img 
-        class="nav__avatar" 
-        src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-        alt="" 
+        <img
+          class="nav__avatar"
+          src="https://images.unsplash.com/photo-1597223557154-721c1cecc4b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+          alt=""
         />
-
       </div>
     </div>
   );
