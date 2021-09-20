@@ -22,7 +22,7 @@ padding: 20px;
     transition: transform 450ms;
 }
 
-.row_poster:hover{
+.row__poster:hover{
     transform: scale(1.08);
     opacity: 1;
 }
