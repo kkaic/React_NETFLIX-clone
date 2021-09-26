@@ -2,7 +2,7 @@ import React from "react";
 import "./ProfileScreen.css";
 import Nav from "../Nav";
 import { auth } from "../firebase";
-
+// import PlanScreen from "./PlanScreen";
 
 function ProfileScreen() {
   return (
@@ -19,9 +19,36 @@ function ProfileScreen() {
             {/* <h2>{user.email}</h2> */}
             <h2>aaa@gmail.com</h2>
             <div className="profileScreen__plans">
-                <h3>Plans</h3>
-                <button onclick={()=> auth.signOut()} className="profileScreen__signOut">Sign out</button>
+              <h3>Plans</h3>
+              <div className="planScreen__plan">
+                <div className="planScreen__info">
+                  <h5>Premium</h5>
+                  <h6>4K + HRD</h6>
+                </div>
+                <button>Subscribe</button>
+              </div>
+              <div className="planScreen__plan">
+                <div className="planScreen__info">
+                  <h5>Basic</h5>
+                  <h6>720p</h6>
+                </div>
+                <button>Subscribe</button>
+              </div>
+              <div className="planScreen__plan">
+                <div className="planScreen__info">
+                  <h5>Standard</h5>
+                  <h6>1080p</h6>
+                </div>
+                <button>Subscribe</button>
+              </div>
             </div>
+            {/* <PlanScreen/> */}
+            <button
+              onclick={() => auth.signOut()}
+              className="profileScreen__signOut"
+            >
+              Sign out
+            </button>
           </div>
         </div>
       </div>
